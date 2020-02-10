@@ -17081,10 +17081,14 @@ section.section {
 }
 
 .button:hover {
-    color: #fff;
+    color: #333;
     background-color: #6d9e02;
     -webkit-box-shadow: 0 20px 38px rgba(0, 0, 0, .16);
     box-shadow: 0 20px 38px rgba(0, 0, 0, .16)
+}
+
+#investor-button, #investor-button:hover {
+    color: #333;
 }
 
 .button--primary {
