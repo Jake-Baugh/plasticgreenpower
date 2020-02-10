@@ -17065,7 +17065,7 @@ section.section {
 
 .button {
     display: inline-block;
-    color: #fff;
+    color: #333;
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
@@ -17088,7 +17088,7 @@ section.section {
 }
 
 #investor-button, #investor-button:hover {
-    color: #333;
+    color: #fff;
 }
 
 .button--primary {
@@ -20980,7 +20980,7 @@ header.header--intro .button {
 
 .promo-pannel__phones {
     width: 100%;
-    max-width: 325px
+    max-width: 250px
 }
 
 .promo-pannel__phones .promo-pannel__link:not(:last-of-type) {
