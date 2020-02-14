@@ -16813,6 +16813,26 @@ body.compensate-for-scrollbar {
     src: url(../fonts/storytella/storytella.eot?#iefix) format("embedded-opentype"), url(../fonts/storytella/storytella.woff) format("woff"), url(../fonts/storytella/storytella.ttf) format("truetype")
 }
 
+@font-face {
+    font-family: 'Hero';
+    src:url('../fonts/hero/Hero.ttf.woff') format('woff'),
+        url('../fonts/hero/Hero.ttf.svg#Hero') format('svg'),
+        url('../fonts/hero/Hero.ttf.eot'),
+        url('../fonts/hero/Hero.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hero';
+    src:url('../fonts/hero/Hero-Bold.woff') format('woff'),
+        url('../fonts/hero/Hero-Bold.svg#Hero') format('svg'),
+        url('../fonts/hero/Hero-Bold.eot'),
+        url('../fonts/hero/Hero-Bold.eot?#iefix') format('embedded-opentype'); 
+    font-weight: 600;
+    font-style: normal;
+}
+
 .icon {
     display: inline-block;
     width: 1em;
@@ -20235,7 +20255,6 @@ header.header--inner {
 header.header--front_2 {
     background: #fff;
     width: 100%;
-    max-width: 1536px;
     left: auto;
     right: 0;
     -webkit-box-shadow: 0 3px 10px 2px rgba(0, 0, 0, .04);
