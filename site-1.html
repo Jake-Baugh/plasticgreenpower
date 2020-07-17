@@ -38,6 +38,14 @@
 
 			font()
 		</script>
+		<script type="text/javascript" src="https://downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+		<script type="text/javascript">
+		  window.openMailchimpPopup = function() {
+			window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"d7841a04ded611ef34b1a1b3c","lid":"94f690184e","uniqueMethods":true}) })
+			document.cookie = 'MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+			document.cookie = 'MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+		  }
+		</script>
 	</head>
 	<body>
 		<div class="page-wrapper">
@@ -47,41 +55,43 @@
 					<svg class="icon">
 						<use xlink:href="#close"></use>
 					</svg></span>
-					<div class="aside-dropdown__item d-lg-none d-block">
-						<ul class="aside-menu">
-							<li class="aside-menu__item aside-menu__item--active"><a class="aside-menu__link" href="index.html"><span>Home</span></a>
-							</li>
-							<li class="aside-menu__item"><a class="aside-menu__link" href="mission.html"><span>Mission</span></a>
-							</li>
-							<li class="aside-menu__item aside-menu__item--has-child"><a class="aside-menu__link" href="javascript:void(0);"><span>Projects</span></a>
-								<!-- sub menu start-->
-								<ul class="aside-menu__sub-list">
-									<li><a href="projects.html"><span>Overview</span></a></li>
-									<li><a href="site-1.html"><span>Key Site - South East</span></a></li>
-									<li><a href="site-2.html"><span>Key Site - Wales</span></a></li>
-									<li><a href="site-3.html"><span>Key Site - North</span></a></li>
-								</ul>
-								<!-- sub menu end-->
-							</li>
-							<li class="aside-menu__item"><a class="aside-menu__link" href="research.html"><span>Research</span></a>
-							</li>
-							<li class="aside-menu__item"><a class="aside-menu__link" href="contact.html"><span>Contact</span></a></li>
-								
-							</li>
-						</ul>
-					</div>
-					<div class="aside-dropdown__item">
-						<!-- aside menu end-->
-						<div class="aside-inner"><span class="aside-inner__title">Email</span><a class="aside-inner__link" href="mailto:support@plasticgreenpower.co.uk">support@plasticgreenpower.co.uk</a></div>
-						<div class="aside-inner"><span class="aside-inner__title">Phone</span><a class="aside-inner__link" href="tel:+44 (0) 2039 055 483">+44 (0) 2039 055 483</a></div>
-						<ul class="aside-socials">
-							<li class="aside-socials__item"><a class="aside-socials__link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-							<li class="aside-socials__item"><a class="aside-socials__link" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-							<li class="aside-socials__item"><a class="aside-socials__link aside-socials__link--active" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-							<li class="aside-socials__item"><a class="aside-socials__link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						</ul>
-					</div>
-				<div class="aside-dropdown__item"><a class="button button--squared" href="#"><span>Invest</span></a></div>
+				<div class="aside-dropdown__item d-lg-none d-block">
+					<ul class="aside-menu">
+						<li class="aside-menu__item aside-menu__item--active"><a class="aside-menu__link" href="index.html"><span>Home</span></a>
+						</li>
+						<li class="aside-menu__item"><a class="aside-menu__link" href="mission.html"><span>Mission</span></a>
+						</li>
+						<li class="aside-menu__item aside-menu__item--has-child"><a class="aside-menu__link" href="javascript:void(0);"><span>Projects</span></a>
+							<!-- sub menu start-->
+							<ul class="aside-menu__sub-list">
+								<li><a href="projects.html"><span>Overview</span></a></li>
+								<li><a href="site-1.html"><span>Key Site - South East</span></a></li>
+								<li><a href="site-2.html"><span>Key Site - Wales</span></a></li>
+								<li><a href="site-3.html"><span>Key Site - North</span></a></li>
+							</ul>
+							<!-- sub menu end-->
+						</li>
+						<li class="aside-menu__item"><a class="aside-menu__link" href="research.html"><span>Research</span></a>
+						</li>
+						<li class="aside-menu__item"><a class="aside-menu__link" href="contact.html"><span>Contact</span></a></li>
+							
+						</li>
+					</ul>
+				</div>
+				<div class="aside-dropdown__item">
+					<!-- aside menu end-->
+					<div class="aside-inner"><span class="aside-inner__title">Address</span><p class="aside-inner__link">71-75 Shelton Street, 
+						<br>London, WC2H 9JQ</p></div>
+					<div class="aside-inner"><span class="aside-inner__title">Email</span><a class="aside-inner__link" href="mailto:info@plasticgreenpower.co.uk">info@plasticgreenpower.co.uk</a></div>
+					<div class="aside-inner"><span class="aside-inner__title">Phone</span><a class="aside-inner__link" href="tel:+44 (0) 2039 055 483">+44 (0) 2039 055 483</a></div>
+					<ul class="aside-socials">
+						<!--<li class="aside-socials__item"><a class="aside-socials__link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li class="aside-socials__item"><a class="aside-socials__link" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>-->
+						<li class="aside-socials__item"><a class="aside-socials__link aside-socials__link--active" href="https://twitter.com/plgreenpower"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+						<li class="aside-socials__item"><a class="aside-socials__link" href="https://linkedin.com/company/plgreenpower"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+				<div class="aside-dropdown__item"><a class="button button--squared green-gradient-bg" href="#login" data-toggle="modal"><span>Invest in PGP</span></a></div>
 				</div>
 			</div>
 			<!-- aside dropdown end-->
@@ -93,7 +103,7 @@
 							<div class="dropdown-trigger d-none d-sm-block">
 								<div class="dropdown-trigger__item"></div>
 							</div>
-							<div class="header-logo"><a class="header-logo__link" href="index.html"><img class="header-logo__img" src="img/logo-dark.png"/></a></div>
+							<div class="header-logo"><a class="header-logo__link" href="index.html"><img class="header-logo__img" src="img/svg/logo-dark.svg"/></a></div>
 						</div>
 						<div class="col-auto">
 							<!-- main menu start-->
@@ -105,9 +115,9 @@
 									</li>
 									<li class="main-menu__item main-menu__item--has-child main-menu__item--active"><a class="main-menu__link" href="javascript:void(0);"><span>Projects</span></a>
 										<!-- sub menu start-->
-										<ul class="main-menu__sub-list">
+										<ul class="main-menu__sub-list green-gradient-bg">
 											<li><a href="projects.html"><span>Overview</span></a></li>
-											<li><a href="site-1.html"><span>Key Site - South East</span></a></li>
+											<li><a href="site-1.html"> <span>Key Site - South East</span></a></li>
 											<li><a href="site-2.html"><span>Key Site - Wales</span></a></li>
 											<li><a href="site-3.html"><span>Key Site - North</span></a></li>
 										</ul>
@@ -137,7 +147,7 @@
 							lang select end-->
 							<div class="dropdown-trigger d-block d-sm-none">
 								<div class="dropdown-trigger__item"></div>
-							</div><a class="button button--squared" id="investor-button" href="#"> <span>Investor Portal</span></a>
+							</div><a class="button button--squared" id="investor-button" href="#login" data-toggle="modal"> <span>Investor Portal</span></a>
 						</div>
 					</div>
 				</div>
@@ -156,7 +166,7 @@
 											</div>
 											<div class="col-lg-7 col-xl-8">
 												<div class="causes-item__action">
-													<div class="causes-item__badge" style="background-color: #82bc00">Initial Project</div><a class="button button--primary" href="#">Invest</a>
+													<div class="causes-item__badge green-gradient-bg">Initial Project</div><a class="button button--primary" onclick="openMailchimpPopup()">Invest</a>
 												</div>
 												<div class="causes-item__top">
 													<h6 class="causes-item__title"> <a href="site-1.html">Key Site - South East</a></h6>
@@ -164,13 +174,13 @@
 												</div>
 												<div class="causes-item__lower">
 													<div class="progress-bar">
-														<div class="progress-bar__inner" style="width: 78%;">
-															<div class="progress-bar__value">78%</div>
+														<div class="progress-bar__inner green-gradient-bg" style="width: 5%;">
+															<div class="progress-bar__value">0%</div>
 														</div>
 													</div>
 													<div class="causes-item__details-holder">
-														<div class="causes-item__details-item"><span>Goal: </span><span>£350,000</span></div>
-														<div class="causes-item__details-item text-right"><span>Pledged: </span><span>£192,000</span></div>
+														<div class="causes-item__details-item"><span>Goal: </span><span>£50,000,000</span></div>
+														
 													</div>
 												</div>
 											</div>
@@ -192,7 +202,7 @@
 							</div>
 							<div class="col-lg-6 col-xl-6 offset-xl-1">
 								<div class="heading heading--primary">
-									<h2 class="heading__title"><span>Overview</span></h2>
+									<h2 class="heading__title"><span class="green-gradient-color">Overview</span></h2>
 								</div>
 								<ul class="unordered-list article__list">
 									<li>Mass Rapid Transit route is planned to serve the site directly from 2019</li>
@@ -204,7 +214,7 @@
 									<li>Units constructed in May 2017</li>
 									
 								</ul>
-								<a class="button button--primary" href="#">Invest</a>
+								<a class="button button--primary" onclick="openMailchimpPopup()">Invest</a>
 							</div>
 						</div>
 					</div>
@@ -214,7 +224,7 @@
 					<div class="container">
 						<div class="row align-items-center">
 							<div class="col-lg-6">
-								<h2 class="heading__title">Key Terms</h2>
+								<h2 class="heading__title"><span class="green-gradient-color">Key Terms</span></h2>
 								<ul class="unordered-list article__list">
 									<li>20 year lease with a tenant only break option at year 10</li>
 
@@ -227,7 +237,7 @@
 								   
 									
 								</ul>
-								<a class="button button--primary" href="#">Invest</a>
+								<a class="button button--primary" onclick="openMailchimpPopup()">Invest</a>
 							</div>
 							<div class="col-lg-6 col-xl-5 offset-xl-1">
 								<img src="img/unit-a.jpg" width="500px"/>
@@ -247,6 +257,89 @@
 						</div>
 					</div>
 				</section>
+
+				<div id="login" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					<div class="modal-dialog modal-login">
+						<div class="modal-content">
+							<div class="modal-header">				
+								<h4 class="modal-title">Sign In</h4>
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							</div>
+							<div class="modal-body">
+								<form action="/examples/actions/confirmation.php" method="post">
+									<div class="form-group">
+										<div class="input-group">
+											<input type="text" class="form-control" name="username" placeholder="Username" required="required">
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="input-group">
+											<input type="text" class="form-control" name="password" placeholder="Password" required="required">
+										</div>
+									</div>
+									<div class="form-group">
+										<button type="submit" class="button button--squared">Login</button>
+									</div>
+									<p class="hint-text"><a href="#password" data-toggle="modal" data-dismiss="modal">Forgot Password?</a></p>
+								</form>
+							</div>
+							<div class="modal-footer">Don't have an account?&nbsp;<a href="#register" data-toggle="modal" data-dismiss="modal">Create one</a></div>
+						</div>
+					</div>
+				</div>     
+	
+				<div id="register" class="modal fade" tabindex="-1" role="dialog">
+					<div class="modal-dialog modal-login">
+						<div class="modal-content">
+							<div class="modal-header">				
+								<h4 class="modal-title">Register</h4>
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							</div>
+							<div class="modal-body">
+								<form action="/examples/actions/confirmation.php" method="post">
+									<div class="form-group">
+										<div class="input-group">
+											<input type="email" class="form-control" name="email" placeholder="Email" required="required">
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="input-group">
+											<input type="text" class="form-control" name="password" placeholder="Password" required="required">
+										</div>
+									</div>
+									<div class="form-group">
+										<button type="submit" class="button button--squared">Sign Up</button>
+									</div>
+								</form>
+							</div>
+							<div class="modal-footer">Have an account?&nbsp;<a href="#login" data-toggle="modal" data-dismiss="modal">Log In</a></div>
+						</div>
+					</div>
+				</div>    
+
+				<div id="password" class="modal fade" tabindex="-1" role="dialog">
+					<div class="modal-dialog modal-login">
+						<div class="modal-content">
+							<div class="modal-header">				
+								<h4 class="modal-title">Forgot Password?</h4>
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							</div>
+							<div class="modal-body">
+								<form action="/examples/actions/confirmation.php" method="post">
+									<div class="form-group">
+										<div class="input-group">
+											<input type="email" class="form-control" name="email" placeholder="Email" required="required">
+										</div>
+									</div>
+									<div class="form-group">
+										<button type="submit" class="button button--squared">Submit</button>
+									</div>
+								</form>
+							</div>
+							<div class="modal-footer">Have an account?&nbsp;<a href="#login" data-toggle="modal" data-dismiss="modal">Log In</a></div>
+						</div>
+					</div>
+				</div>   
 			
 			</main>
 			<!-- footer start-->
@@ -254,13 +347,12 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-6 col-lg-3">
-							<div class="footer-logo"><a class="footer-logo__link" href="index.html"><img class="footer-logo__img" src="img/logo.png"/></a></div>
+							<div class="footer-logo"><a class="footer-logo__link" href="index.html"><img class="footer-logo__img" src="img/svg/logo.svg"/></a></div>
 							<!-- footer socials start-->
 							<ul class="footer-socials">
-								<li class="footer-socials__item"><a class="footer-socials__link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li class="footer-socials__item"><a class="footer-socials__link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li class="footer-socials__item"><a class="footer-socials__link" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-								<li class="footer-socials__item"><a class="footer-socials__link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li class="footer-socials__item"><a class="footer-socials__link" href="https://www.linkedin.com/company/plgreenpower"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+								<li class="footer-socials__item"><a class="footer-socials__link" href="https://twitter.com/plgreenpower"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+								<li class="footer-socials__item"><a class="footer-socials__link" href="https://facebook.com/Plastic-Green-Power-104010554563736/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
 							</ul>
 							<!-- footer socials end-->
 						</div>
@@ -269,7 +361,7 @@
 							<div class="footer-contacts">
 								<p class="footer-contacts__address">71-75 Shelton Street, <br>London, WC2H 9JQ</p>
 								<p class="footer-contacts__phone">Phone: <a href="tel:+44(0)2039055483">+44 (0) 2039 055 483</a></p>
-								<p class="footer-contacts__mail"><a href="mailto:support@plasticgreenpowerltd.co.uk">support@plasticgreenpowerltd.co.uk</a></p>
+								<p class="footer-contacts__mail"><a href="mailto:info@plasticgreenpowerltd.co.uk">info@plasticgreenpowerltd.co.uk</a></p>
 							</div>
 						</div>
 						<div class="col-sm-6 col-lg-3">
@@ -292,7 +384,7 @@
 						<div class="col-sm-6 col-lg-3">
 							<h4 class="footer__title">Investors</h4>
 							<p>Help us deliver an eco centric 
-								opportunity for plastic waste</p><a class="button footer__button button--filled" href="investor-portal.html">Invest In Us</a>
+								opportunity for plastic waste</p><a class="button footer__button button--filled green-gradient-bg onclick="openMailchimpPopup()">Invest In Us</a>
 						</div>
 					</div>
 					<div class="row align-items-baseline">
@@ -300,7 +392,7 @@
 							<p class="footer-copyright">© 2020 Plastic Green Power Ltd Registered Company Number 12085821</p>
 						</div>
 						<div class="col-md-6">
-							<div class="footer-privacy"><a class="footer-privacy__link" href="privacy.html">Privacy Policy</a><span class="footer-privacy__divider">|</span><a class="footer-privacy__link" href="terms-conditions.html">Term and Conditions</a></div>
+							<div class="footer-privacy"><a class="footer-privacy__link" href="privacy-policy.html">Privacy Policy</a><span class="footer-privacy__divider">|</span><a class="footer-privacy__link" href="terms-conditions.html">Terms and Conditions</a></div>
 						</div>
 					</div>
 				</div>
